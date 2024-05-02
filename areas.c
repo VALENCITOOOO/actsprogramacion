@@ -9,7 +9,7 @@ int main()
     printf("3. Rectángulo\n");
     printf("Seleccione una opción (1-3): ");
     scanf("%d", &opcion);
-
+    //hola//
     switch(opcion) {
         case 1:
             printf("Ingrese la base del triángulo: ");
