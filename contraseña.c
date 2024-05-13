@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <string.h>
-
+//VERSION2 EXAMEN PRACTICO 13-05-24//
 int main() {
     char nombre[50];
     char contrasena[50];
     int intentos = 3;
+   
 
     do {
         printf("Introduce tu nombre: ");
@@ -13,8 +14,8 @@ int main() {
         printf("Introduce tu contraseña: ");
         scanf("%s", contrasena);
 
-        if (strcmp(nombre, "root") == 0 && strcmp(contrasena, "1234") == 0) {
-            printf("Bienvenido al sistema.\n");
+        if (strcmp(nombre, "root") == 0 && strcmp(contrasena, "2B8") == 0) {
+            printf("Bienvenido al sistema.\n");            
             break;
         } else {
             intentos--;
@@ -24,6 +25,9 @@ int main() {
                 printf("Se ha superado el número de intentos permitido.\n");
                 break;
             }
+    
+    
+       
         }
     } while (intentos > 0);
 
