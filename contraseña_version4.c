@@ -7,7 +7,7 @@ int main() {
     int intentos = 3;
     int articulos, precio, i, total;
    
-
+//funcion repetitiva do-while//
     do {
         printf("Introduce tu nombre: ");
         scanf("%s", nombre);
@@ -31,6 +31,7 @@ int main() {
             printf("cuando hayas terminado introduce 0 para finalizar");
             printf("ingrese la cantidad vendida : ");
             scanf("%i", &articulos);
+    //Funcion repetitiva while//
             while (articulos !=0) {
               printf("ingrese el precio : ");
               scanf("%i", &precio);
